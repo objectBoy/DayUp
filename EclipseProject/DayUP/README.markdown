@@ -2,7 +2,7 @@
 
 ## 03-28 2016
 
-*   重构onMeasure方法
+*   重构onMeasure方法 : ViewTest
+*   霓虹灯效果的TextView ： LinearGradientText
 
-*   霓虹灯效果的TextView
 ## 03-29 2016
