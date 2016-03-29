@@ -5,17 +5,4 @@
     android:layout_height="match_parent"
     tools:context="com.zhaominglu.dayup.MainActivity" >
 
-    <com.zhaominglu.dayup.view.TopBar
-        android:id="@+id/topbar"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        TopBar:leftText="返回"
-        TopBar:leftTextColor="#ffffff"
-        TopBar:rightText="设置"
-        TopBar:rightTextColor="#ffffff"
-        TopBar:title="赵明路"
-        TopBar:titleTextColor="#ffffff"
-        TopBar:titleTextSize="10sp"
-        android:background="#000000" />
-
 </RelativeLayout>
