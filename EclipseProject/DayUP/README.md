@@ -2,6 +2,6 @@
 
 ## 03-28 2016
 
-* 重构onMeasure方法
+*   閲嶆瀯onMeasure鏂规硶
 
-* 霓虹灯效果的TextView 
+*   闇撹櫣鐏晥鏋滅殑TextView
