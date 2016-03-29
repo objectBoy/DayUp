@@ -1,16 +1,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:TopBar="http://schemas.android.com/apk/res/com.zhaominglu.dayup"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zhaominglu.dayup.MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <com.zhaominglu.dayup.view.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        TopBar:leftText="返回"
+        TopBar:leftTextColor="#ffffff"
+        TopBar:rightText="设置"
+        TopBar:rightTextColor="#ffffff"
+        TopBar:title="赵明路"
+        TopBar:titleTextColor="#ffffff"
+        TopBar:titleTextSize="10sp"
+        android:background="#000000" />
 
 </RelativeLayout>

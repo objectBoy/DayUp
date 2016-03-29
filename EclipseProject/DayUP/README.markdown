@@ -6,3 +6,28 @@
 *   霓虹灯效果的TextView ： LinearGradientText
 
 ## 03-29 2016
+
+*   创建复合控件 ： TopBar
+
+练习通过xml自定义属性，通过接口回调实现点击事件
+
+**注意** 引用UI模板时，Eclipse和Studio不同
+
+<table>
+<thead>
+<tr>
+<th>环境</th>
+<th>引用代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eclipse</td>
+<td>xmlns:TopBar="[http://schemas.android.com/apk/res/com.zml.dayup](http://schemas.android.com/apk/res/com.zml.dayup)"</td>
+</tr>
+<tr>
+<td>Studio</td>
+<td>xmlns:TopBar="[http://schemas.android.com/apk/res-auto](http://schemas.android.com/apk/res-auto)"</td>
+</tr>
+</tbody>
+</table>
