@@ -5,4 +5,8 @@
     android:layout_height="match_parent"
     tools:context="com.zhaominglu.dayup.MainActivity" >
 
+    <com.zhaominglu.dayup.view.ArcStatemnt
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>
