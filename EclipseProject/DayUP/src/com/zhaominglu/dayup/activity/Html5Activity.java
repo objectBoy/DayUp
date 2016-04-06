@@ -8,17 +8,21 @@ import android.os.Bundle;
 import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.GeolocationPermissions;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
 public class Html5Activity extends Activity {
 
 	private String mUrl;
 
 	private WebView mWebView;
+
+	private ProgressBar mWebProgress;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,8 @@ public class Html5Activity extends Activity {
 		Log.d("Url:", mUrl);
 
 		mWebView = (WebView) findViewById(R.id.web);
+		mWebProgress = (ProgressBar) findViewById(R.id.web_progress);
+		mWebProgress.setMax(100);
 
 		WebSettings mWebSettings = mWebView.getSettings();
 		mWebSettings.setSupportZoom(true);
@@ -86,6 +92,13 @@ public class Html5Activity extends Activity {
 			view.loadUrl(url);
 			return true;
 		}
+		//进度条的显示和隐藏
+		public void onPageStarted(WebView view, String url, Bitmap favicon) {
+			mWebProgress.setVisibility(View.VISIBLE);
+		};
+		public void onPageFinished(WebView view, String url) {
+			mWebProgress.setVisibility(View.GONE);
+		};
 
 	};
 
@@ -102,6 +115,11 @@ public class Html5Activity extends Activity {
 		public void onReceivedIcon(WebView view, Bitmap icon) {
 			super.onReceivedIcon(view, icon);
 		}
+
+		// 加载进度
+		public void onProgressChanged(WebView view, int newProgress) {
+			mWebProgress.setProgress(newProgress);
+		};
 
 		@Override
 		public void onGeolocationPermissionsHidePrompt() {
