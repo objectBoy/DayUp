@@ -35,3 +35,8 @@
 ## 03-29 2016
 
 *   弧线报表 ArcStatement
+
+## 06-04 2016
+
+*   熟悉WebView的使用及设置 ：Html5Actvity
+*   android使用JS有个漏洞[http://blog.csdn.net/leehong2005/article/details/11808557](http://blog.csdn.net/leehong2005/article/details/11808557)
