@@ -13,20 +13,24 @@
 
 **注意** 引用UI模板时，Eclipse和Studio不同
 
-&lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt;环境&lt;/th&gt;
-&lt;th&gt;引用代码&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Eclipse&lt;/td&gt;
-&lt;td&gt;xmlns:TopBar="[http://schemas.android.com/apk/res/com.zml.dayup](http://schemas.android.com/apk/res/com.zml.dayup)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Studio&lt;/td&gt;
-&lt;td&gt;xmlns:TopBar="[http://schemas.android.com/apk/res-auto](http://schemas.android.com/apk/res-auto)"&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+<table>
+<thead>
+<tr>
+<th>环境</th>
+<th>引用代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eclipse</td>
+<td>xmlns:TopBar="[http://schemas.android.com/apk/res/com.zml.dayup](http://schemas.android.com/apk/res/com.zml.dayup)</td>
+</tr>
+<tr>
+<td>Studio</td>
+<td>xmlns:TopBar="[http://schemas.android.com/apk/res-auto](http://schemas.android.com/apk/res-auto)"</td>
+</tr>
+</tbody>
+</table>
 
 ## 03-29 2016
 
