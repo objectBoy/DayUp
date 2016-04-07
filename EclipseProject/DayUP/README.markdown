@@ -23,7 +23,7 @@
 <tbody>
 <tr>
 <td>Eclipse</td>
-<td>xmlns:TopBar=\"[http://schemas.android.com/apk/res/com.zml.dayup\](http://schemas.android.com/apk/res/com.zml.dayup\)"</td>
+<td>xmlns:TopBar="[http://schemas.android.com/apk/res/com.zml.dayup](http://schemas.android.com/apk/res/com.zml.dayup)"</td>
 </tr>
 <tr>
 <td>Studio</td>
@@ -39,4 +39,4 @@
 ## 06-04 2016
 
 *   熟悉WebView的使用及设置 ：Html5Actvity
-*   android使用JS有个漏洞[http://blog.csdn.net/leehong2005/article/details/11808557](http://blog.csdn.net/leehong2005/article/details/11808557)
+*   [ android使用JS有个漏洞](http://blog.csdn.net/leehong2005/article/details/11808557)
