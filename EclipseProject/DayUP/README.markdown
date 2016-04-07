@@ -23,7 +23,7 @@
 <tbody>
 <tr>
 <td>Eclipse</td>
-<td>xmlns:TopBar="[http://schemas.android.com/apk/res/com.zml.dayup](http://schemas.android.com/apk/res/com.zml.dayup)</td>
+<td>xmlns:TopBar=\"[http://schemas.android.com/apk/res/com.zml.dayup\](http://schemas.android.com/apk/res/com.zml.dayup\)"</td>
 </tr>
 <tr>
 <td>Studio</td>
