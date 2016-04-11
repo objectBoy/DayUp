@@ -40,3 +40,6 @@
 
 *   熟悉WebView的使用及设置 ：Html5Actvity
 *   [ android使用JS有个漏洞](http://blog.csdn.net/leehong2005/article/details/11808557)
+
+## 11-04 2016
+* PackageManager 类的使用：PackageManagerActivity + AppInfo
